@@ -1,0 +1,25 @@
+{
+  // --- Python Interpreter Configuration ---
+  "python.defaultInterpreterPath": "C:/Users/LENOVO/OneDrive - K.R. MANGALAM UNIVERSITY/Programs/Python Bootcamp/venv/Scripts/python.exe",
+  
+  // --- Code Runner Configuration ---
+  "code-runner.executorMap": {
+    "python": "& 'C:/Users/LENOVO/OneDrive - K.R. MANGALAM UNIVERSITY/Programs/Python Bootcamp/venv/Scripts/python.exe' '$fullFileName'"
+  },
+
+  // Run code in the integrated terminal
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.preserveFocus": true,
+
+  // --- Terminal & Encoding Settings ---
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.env.windows": {
+    "PYTHONIOENCODING": "utf-8"
+  },
+
+  // --- File Encoding ---
+  "files.encoding": "utf8"
+}
