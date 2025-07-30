@@ -19,7 +19,12 @@ file.write("How are you??\n")
 
 # file.close()            # close a file and free up resources
 
-with open('diaries.txt', 'r') as file:      # use a with block to open a file, handle it, and close it automatically
-    content = file.read()           
-    print(content)
-    
+# with open('diaries.txt', 'r') as file:      # use a with block to open a file, handle it, and close it automatically
+#     content = file.read()           
+#     print(content)
+
+# Moving the file cursor using seek()
+with open('diaries.txt', 'r') as file:
+  file.seek(10)  # Move to the 10th byte
+  content = file.read()
+print(content)
